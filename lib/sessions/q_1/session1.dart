@@ -1,4 +1,3 @@
-import 'package:course/home_work/homework1.dart';
 import 'package:flutter/material.dart';
 
 class CardScreen extends StatelessWidget {
@@ -162,6 +161,7 @@ class ContainerWidgetNumber extends ContainerWidgetChar {
   }
 }
 
+// ignore: must_be_immutable
 class CardsInfo extends ContainerWidgetChar {
   int number = 0;
   CardsInfo({
